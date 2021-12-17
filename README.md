@@ -8,3 +8,6 @@ sudo apt-get install git-core gnupg flex bison build-essential zip curl zlib1g-d
 
 
 repo init -u https://android.googlesource.com/platform/manifest -b android-11.0.0_r46
+
+
+repo init -u https://aosp.tuna.tsinghua.edu.cn/platform/manifest -b android-11.0.0_r46
