@@ -20,3 +20,14 @@ c35s1.jamjams.net
 
 
 29233    aes-256-gcm  
+
+
+10，开始下载对应的驱动
+https://source.android.com/setup/start/build-numbers
+这里找到对应的编号如android-11.0.0_r46 对应 RQ3A.211001.001
+进入https://developers.google.com/android/drivers 搜索编号 找到驱动下载链接
+
+下载完成后，在源码目录下解压
+执行 ./extract-google_devices-blueline.sh
+./extract-qcom-blueline.sh
+命令后，同意协议后开始提取，会生成vendor文件夹
